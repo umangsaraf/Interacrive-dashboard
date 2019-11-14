@@ -1,0 +1,145 @@
+body{
+    background-color: #ece9e6
+}
+html *
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: Times New Roman !important;
+}
+
+
+.div
+   {
+     display: inline-block;
+   }
+
+#tableBox{
+    table-layout: fixed;
+    width: 120%;
+}
+#legend {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: .05px solid black;
+  }
+
+.simpleTable {
+    width: 100%;
+    margin-left: 10%;
+    border: .05px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+tr { 
+    border: 1px solid ;
+    border-width: 0.015px ;
+  }
+#header{
+    border: 1px solid ;
+    border-width: 1px ;
+
+}
+#renewables{
+    border: 1px solid ;
+    border-width: 1px ;
+}
+.dashboard {
+    width: 80%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.greaterArea tr td { 
+    border: 1px solid black;
+    width:60%; 
+}
+
+#donutChart {
+    width:100%;
+    height:100%;
+    min-height:250px;
+}
+
+.zc-ref {
+    display: none;
+}
+
+.pageLogo {
+    height: 75px;
+}
+
+#ChartSpace{
+    width: 1000px; 
+    height: 700px;
+}
+
+  #windbox {
+    background-color:#437607 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+  #hydrobox {
+    background-color:#4582B4 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+  #gasbox {
+    background-color:#FDB462 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+  #distillatebox {
+    background-color:#C74523 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+
+  #black_coalbox {
+    background-color:#121212 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+  #exportsbox {
+    background-color:#977AB1 ;
+    float: left;
+    padding: 10px ;
+    width: .01%;
+  height: 20%;
+  }
+
+  #pumpsbox {
+    background-color:#88AFD0 ;
+    padding: 10px ;
+    float: left;
+    width: .01%;
+  height: 20%;
+  }
+
+.box {
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.explanation {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+
